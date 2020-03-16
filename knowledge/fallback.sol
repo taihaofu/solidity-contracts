@@ -1,4 +1,4 @@
-contract fallbackDemo {
+contract Test {
     event callFullback(address);
     function () public payable {
         emit callFullback(msg.sender);
